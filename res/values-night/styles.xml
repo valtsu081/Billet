@@ -1,0 +1,8 @@
+<resources>
+    <!-- Dark platform theme when the phone is in dark mode: the web view then reports "dark". -->
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/mast</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+</resources>
