@@ -43,22 +43,6 @@ enter stays on your phone, and the app has no internet access at all.
 - The app lock stores only a salted hash of your PIN. Fingerprint and face checks are done by Android itself;
   Billet only gets a yes or no.
 
-## Build it yourself
-
-Billet is one web page (`web/billet.html`) inside a small Android wrapper. It builds without Android Studio or Gradle,
-on Linux:
-
-```bash
-./setup-toolchain.sh   # once: downloads a JDK and the Android SDK build tools (about 550 MB) into ~/.local/share/billet-android
-./build.sh             # writes Billet.apk
-```
-
-`build.sh` signs the app with `signing/billet.jks`, and makes a new key there the first time if there isn't one.
-That key isn't in this repository, so your own build has a different signature from the official release:
-Android won't install it over the official app (or the other way round) without uninstalling first.
-
-When making an update, raise `VERSION_CODE` in `build.sh` and `APP_VERSION` in `web/billet.html`.
-
 | Path | What it is |
 |---|---|
 | `web/billet.html` | The whole app: interface, data model, budgets, import and export |
