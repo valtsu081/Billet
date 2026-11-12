@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Downloads a private JDK and the Android SDK pieces needed to build Billet into one folder.
 set -euo pipefail
 ROOT="$HOME/.local/share/billet-android"
 mkdir -p "$ROOT/dl" "$ROOT/sdk/cmdline-tools"
