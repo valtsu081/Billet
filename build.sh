@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# Builds Billet.apk from web/billet.html without Android Studio or Gradle.
-# Needs the toolchain from setup-toolchain.sh (a private JDK and Android SDK build tools).
-# Raise VERSION_CODE every time you build an update, or phones won't install it over the old one.
-# The version name shown to people comes from APP_VERSION in web/billet.html.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -38,7 +34,6 @@ python3 -I tools/add_dex.py build/base.apk build/dex/classes.dex build/unsigned.
 echo "== Align and sign"
 "$BT/zipalign" -p -f 4 build/unsigned.apk build/aligned.apk
 if [ ! -f signing/billet.jks ]; then
-  # Keep this key: updates must be signed with the same key to install over the old app.
   mkdir -p signing
   head -c 24 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' > signing/password.txt
   keytool -genkeypair -keystore signing/billet.jks -alias billet -keyalg RSA -keysize 2048 -validity 10000 \
