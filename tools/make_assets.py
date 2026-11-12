@@ -1,9 +1,3 @@
-"""Turn web/billet.html into the app's assets/index.html.
-
-Wraps the page in a full HTML document, downloads the two web fonts (latin subsets)
-so the app works offline, and points the page at the bundled font files.
-Usage: python3 -I tools/make_assets.py web/billet.html build/assets
-"""
 import os
 import re
 import sys
@@ -45,7 +39,6 @@ def main(src, out):
     if not faces:
         sys.exit('No font files found in the Google Fonts response')
 
-    # Drop the online font links and use the bundled files instead.
     html = re.sub(r'<link rel="preconnect"[^>]*>\s*', '', html)
     html = html.replace(link.group(0), '<style>\n' + '\n'.join(faces) + '\n</style>')
 
