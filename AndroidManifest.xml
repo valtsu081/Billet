@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- No INTERNET permission: Billet runs fully offline and data never leaves the phone.
-     allowBackup=false keeps the ledger out of Google cloud backups. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.billet.ledger">
-    <!-- The app lock uses the phone's own fingerprint or face unlock. -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
     <application
         android:label="Billet"
