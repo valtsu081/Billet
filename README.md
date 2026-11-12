@@ -22,7 +22,7 @@ enter stays on your phone, and the app has no internet access at all.
 - **Recurring payments** that remind you when they're due, or post themselves.
 - **Loans**, including Euribor + margin interest.
 - **Income and expenses chart** by month or year.
-- **CSV import and export**, including files from Finnish banks and Ivy Wallet, plus full backups.
+- **CSV import and export**, plus full backups.
 - **Looks:** light and dark mode, five colour themes, and Material You colours from your wallpaper (Android 12+).
 - **App lock (optional):** unlock with your phone's own fingerprint or face unlock, or a PIN.
 
