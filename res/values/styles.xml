@@ -1,5 +1,4 @@
 <resources>
-    <!-- Light platform theme: the web view reports "light" to the page. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/bg</item>
         <item name="android:statusBarColor">@color/mast</item>
