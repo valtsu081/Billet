@@ -1,4 +1,3 @@
-<!-- A euro sign drawn inside the adaptive-icon safe zone (108 x 108, safe circle radius 33). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
