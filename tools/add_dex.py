@@ -1,6 +1,3 @@
-"""Copy the APK that aapt2 made and add the compiled code (classes.dex) to it.
-Usage: python3 -I tools/add_dex.py build/base.apk build/dex/classes.dex build/unsigned.apk
-"""
 import shutil
 import sys
 import zipfile
