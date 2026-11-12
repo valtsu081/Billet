@@ -20,10 +20,10 @@ enter stays on your phone, and the app has no internet access at all.
 - **Budgets:** for all spending or chosen categories and accounts, with how much is left per day.
   The budget month can start on any day, for example your payday.
 - **Recurring payments** that remind you when they're due, or post themselves.
-- **Loans**, including Euribor + margin interest.
+- **Loan tracking** make your own interest rates.
 - **Income and expenses chart** by month or year.
-- **CSV import and export**, plus full backups.
-- **Looks:** light and dark mode, five colour themes, and Material You colours from your wallpaper (Android 12+).
+- **CSV import and export** transfer your collected data from another app to ours, plus full backups.
+- **Looks:** light and dark mode, five colour themes, and Material You theming (Android 12+).
 - **App lock (optional):** unlock with your phone's own fingerprint or face unlock, or a PIN.
 
 ## Install
@@ -33,6 +33,12 @@ enter stays on your phone, and the app has no internet access at all.
    Play Protect may say the app is from an unknown developer; choose **Install anyway**.
 
 **Updating:** download the newer `Billet.apk` and install it over the old one. Your data stays.
+
+## Security is our priority
+
+- We don't collect your data
+- App doesn't require internet connection
+- No accounts needed to be made
 
 ## Your data
 
