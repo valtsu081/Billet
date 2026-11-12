@@ -1,6 +1,6 @@
 # Billet
 
-A simple budget app for your monthly income and expenses, in euros. Billet works fully offline: everything you
+A simple budget app for your monthly income and expenses. Billet works fully offline: everything you
 enter stays on your phone, and the app has no internet access at all.
 
 <p>
