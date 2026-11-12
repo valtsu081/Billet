@@ -1,10 +1,7 @@
-# The signing key: never commit it. Anyone with it could publish fake Billet updates.
 signing/
 *.jks
 *.keystore
 password.txt
-
-# Build output (the APK is attached to GitHub Releases instead)
 build/
 *.apk
 *.aab
