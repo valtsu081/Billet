@@ -43,13 +43,6 @@ enter stays on your phone, and the app has no internet access at all.
 - The app lock stores only a salted hash of your PIN. Fingerprint and face checks are done by Android itself;
   Billet only gets a yes or no.
 
-| Path | What it is |
-|---|---|
-| `web/billet.html` | The whole app: interface, data model, budgets, import and export |
-| `src/…/MainActivity.java` | The Android wrapper: web view, file picker and saving, bar colours, fingerprint and face unlock |
-| `AndroidManifest.xml`, `res/` | App name, icon, theme and permissions |
-| `build.sh`, `setup-toolchain.sh`, `tools/` | The build: bundles the fonts for offline use, compiles, signs |
-
 ## Licence
 
 Billet is under the [MIT License](LICENSE). The fonts and some icons have their own licences; see
